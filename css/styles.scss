@@ -1,0 +1,70 @@
+$textfont: 'Khula', sans-serif;
+
+body {
+	background: #d1d0cc;
+}
+
+.container {
+	// background: white;
+	padding: 0px 2em 0px 2em;
+}
+
+.white-background {
+	background: white;
+}
+
+.no-wrap {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	background: #f4f4f2;	
+}
+
+
+main {
+	display: flex;
+	article {
+		flex: 1;
+
+		h1,h2,h3,h4,h5,h6{
+			font-family: 'Raleway', sans-serif;
+		}
+
+		img {
+			transition: opacity 0.5s;
+			opacity: 0.5;
+		}
+		img:hover {
+			
+			opacity: 1;
+		}
+
+		p {
+			font-family: $textfont;
+		}
+		
+		span {
+			font-size: 1em;
+			font-family: $textfont;
+		}
+		.jumbotron {
+			padding: 15px 15px 15px 15px;
+		}
+	}
+
+
+	footer {
+		color: white;
+		background: white;
+	}
+}
+
+
+
+
+
+.login-top {
+	margin-top: 30%;
+}
